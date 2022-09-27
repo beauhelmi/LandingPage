@@ -1,3 +1,234 @@
-body {
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.call-to-action {
+    border-radius: 24px;
+    border: none;
+    width: 185px;
+    color: white;
+    background-color: rgb(190, 142, 52);
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.call-to-action:hover {
+    background-color: rgb(255, 166, 0);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+    width: 1300px;
+}
+
+.container-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 500px;
+    width: auto;
+    padding-right: 100px;
+
+}
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    padding-right: 20px;
+    width: 540px;
+    height: 250px;
+}
+
+.image-right {
+    display: flex;
+    height: 420px;
+    width: 600px;
+    padding-left: 90px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding-right: 27px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: white;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #1F2937;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: orange;
+}
+
+.logo-img {
+    height: 120px;
+    width: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    background-color: #1F2937;
+    height: 90px;
+    color: white;
+    font-size: 22px;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    height: 650px;
+    width: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1400px;
+}
+
+.cards > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1;
+    padding-top: 50px;
+}
+
+.card > p {
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lasagna-1,
+.lasagna-2,
+.lasagna-3,
+.lasagna-4 {
+    height: 180px;
+    width: auto;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 400px;
+    width: auto;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1300px;
+}
+
+.text > p {
+    align-self: flex-end;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-right: 60px;
+}
+
+.cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+    width: auto;
+}
+
+.container-cta {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+    width: 1300px;
+    background-color: #3882f6;
+    border-radius: 20px;
+    color: white;
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.right-side {
+    display: flex;
+    height: 50px;  
+}
+
+#strong {
+    border-radius: 24px;
+    border: none;
+    width: 185px;
+    color: white;
+    background-color: transparent;
+    border: solid;
+    border-color: white;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+#strong:hover {
+    background-color: #5f9bfb;
 }
