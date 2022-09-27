@@ -48,7 +48,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #850E35;
     height: 500px;
     width: auto;
     padding-right: 100px;
@@ -59,7 +59,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    color: white;
+    color: #FFF5E4;
     padding-right: 20px;
     width: 540px;
     height: 250px;
@@ -79,7 +79,7 @@ h1 {
     padding-right: 27px;
     font-size: 18px;
     font-weight: bolder;
-    color: white;
+    color: #FFF5E4;
 }
 
 li {
@@ -88,12 +88,12 @@ li {
 
 a {
     text-decoration: none;
-    color: #1F2937;
+    color: #EE6983;
 }
 
 a:hover {
     text-decoration: underline;
-    color: orange;
+    color: #850E35;
 }
 
 .logo-img {
@@ -106,9 +106,9 @@ footer {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    background-color: #1F2937;
+    background-color: #850E35;
     height: 90px;
-    color: white;
+    color: #FFC4C4;
     font-size: 22px;
 }
 
@@ -165,9 +165,10 @@ footer {
     flex-wrap: wrap;
     height: 400px;
     width: auto;
-    background-color: #E5E7EB;
+    background-color: #FFC4C4;
     font-size: 36px;
     font-style: italic;
+    color: #850E35;
 }
 
 .text {
@@ -201,9 +202,9 @@ footer {
     align-items: center;
     height: 200px;
     width: 1300px;
-    background-color: #3882f6;
+    background-color: #EE6983;
     border-radius: 20px;
-    color: white;
+    color: #850E35;
 }
 
 .left-side {
@@ -221,14 +222,13 @@ footer {
     border-radius: 24px;
     border: none;
     width: 185px;
-    color: white;
+    color: #850E35;
     background-color: transparent;
     border: solid;
-    border-color: white;
+    border-color: #FFC4C4;
     font-weight: bolder;
     font-size: 18px;
 }
 
 #strong:hover {
-    background-color: #5f9bfb;
-}
+    background-color: #EE6983;
